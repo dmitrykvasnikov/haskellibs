@@ -1,3 +1,3 @@
-module Parsim (module Parsim.Types) where
+module Parsim (module Exports) where
 
-import Parsim.Types
+import Parsim.Types as Exports

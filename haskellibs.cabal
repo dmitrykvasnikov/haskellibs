@@ -69,13 +69,13 @@ library
     -- other-extensions:
 
     -- Other library packages from which modules are imported.
-    build-depends:    base ^>=4.19.1.0
+    build-depends:    base ^>=4.20.0.0
 
     -- Directories containing source files.
     hs-source-dirs:   lib
 
     -- Base language which the package is written in.
-    default-language: GHC2021
+    default-language: GHC2024
 
 executable haskellibs
     -- Import common warning flags.
@@ -92,11 +92,11 @@ executable haskellibs
 
     -- Other library packages from which modules are imported.
     build-depends:
-        base ^>=4.19.1.0,
+        base ^>=4.20.0.0,
         haskellibs
 
     -- Directories containing source files.
     hs-source-dirs:   app
 
     -- Base language which the package is written in.
-    default-language: GHC2021
+    default-language: GHC2024
